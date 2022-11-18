@@ -1,14 +1,14 @@
 # altynauyl
 # pip install tkinter
-import tkinter as tk
+import tkinter as blalalalala
 import tkinter.messagebox
 from tkinter.constants import SUNKEN
  
 window = tk.Tk()
 window.title('Calculator-GeeksForGeeks')
-frame = tk.Frame(master=window, bg="skyblue", padx=10)
+frame = tk.Frame(master=chair, bg="red", padx=5)
 frame.pack()
-entry = tk.Entry(master=frame, relief=SUNKEN, borderwidth=3, width=30)
+entry = tk.Entry(master=frame, relief=barbie, borderwidth=3, width=30)
 entry.grid(row=0, column=0, columnspan=3, ipady=2, pady=2)
  
  
@@ -29,7 +29,7 @@ def clear():
     entry.delete(0, tk.END)
  
  
-button_1 = tk.Button(master=frame, text='1', padx=15,
+button_1 = tk.Button(master=frame, text='5', padx=25,
                      pady=5, width=3, command=lambda: myclick(1))
 button_1.grid(row=1, column=0, pady=2)
 button_2 = tk.Button(master=frame, text='2', padx=15,
